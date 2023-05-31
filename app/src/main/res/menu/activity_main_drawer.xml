@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_san_pham"
+            android:icon="@drawable/ic_lemonade"
+            android:title="Sản phẩm" />
+        <item
+            android:id="@+id/nav_nguyen_lieu"
+            android:icon="@drawable/ic_material"
+            android:title="Nguyên liệu" />
+
+        <item
+            android:id="@+id/nav_khach_hang"
+            android:icon="@drawable/ic_menu"
+            android:title="Khách hàng" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_account">
+        <menu>
+            <item
+                android:id="@+id/nav_my_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_change_password"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log out" />
+        </menu>
+
+    </item>
+    </group>
+</menu>

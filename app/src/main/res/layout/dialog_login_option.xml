@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding = "15dp"
+    android:layout_marginVertical="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dialog_employee_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounder_conner"
+            android:text="Nhân viên"/>
+        <Button
+            android:id="@+id/dialog_manager_btn"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/rounder_conner"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quản lý"/>
+    </LinearLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/dialog_option_tv"
+        android:layout_marginTop = "10dp"
+        android:text="Option"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/dialog_code_edt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Nhập code xác thực"
+        android:layout_gravity="center"/>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/dialog_ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:background="@drawable/rounder_conner"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

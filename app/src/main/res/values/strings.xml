@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">second</string>
+    <string name="title_activity_employeescennn">employeescennn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_viet_nam">Viet Nam</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_english">English</string>
+    <string name="action_logout">Log out</string>
+
+    <string name="menu_nguyen_lieu">Nguyên liệu</string>
+    <string name="menu_product">Sản phẩm</string>
+    <string name="menu_khach_hang">Khách hàng</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_my_profile">My Profiile</string>
+    <string name="menu_change_password">Change PassWord</string>
+    <string name="menu_Logout">Log out</string>
+
+
+</resources>

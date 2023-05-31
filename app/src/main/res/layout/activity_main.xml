@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnew"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/header">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn cơ sở"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        />
+    <Button
+        android:id="@+id/hadong_btn"
+        android:text="Hà đông"
+        android:background="@drawable/rounder_conner"
+        android:onClick="openDialog"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/Haibatrung_btn"
+        android:onClick="openDialog"
+        android:background="@drawable/rounder_conner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="hai bà trưng"/>
+</LinearLayout>
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_below="@id/header"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"/>
+</LinearLayout>-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/primary"
+        android:src="@drawable/ic_baseline_add_24"
+        app:tint="@color/white"/>
+
+    </RelativeLayout>
